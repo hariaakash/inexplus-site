@@ -13,3 +13,7 @@
     }
   });
 })(jQuery);
+
+function sendMail () {
+    console.log($('#email').val())
+};

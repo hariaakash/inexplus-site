@@ -29,3 +29,32 @@
 .imgfw {
     width: 100%
 }
+
+.contact-form {
+    margin-top: 15px;
+}
+
+.contact-form .textarea {
+    min-height: 220px;
+    resize: none;
+}
+
+.form-control {
+    box-shadow: none;
+    border-color: #eee;
+    height: 49px;
+}
+
+.form-control:focus {
+    box-shadow: none;
+    border-color: #00b09c;
+}
+
+input[type=number]::-webkit-outer-spin-button, input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type=number] {
+    -moz-appearance: textfield;
+}
