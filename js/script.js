@@ -16,4 +16,8 @@
 
 function sendMail () {
     console.log($('#email').val())
+    console.log($('#name').val())
+    console.log($('#number').val())
+    console.log($('#message').val())
+    return false;
 };
