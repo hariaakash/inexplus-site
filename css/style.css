@@ -17,6 +17,10 @@
     padding-bottom: 5%;
 }
 
+.bg-theme {
+    background-color: #F4531C;
+}
+
 .ci {
     width: 100%;
     max-height: 400px !important;
