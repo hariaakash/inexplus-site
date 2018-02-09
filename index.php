@@ -158,11 +158,11 @@
 				</div>
 				<div class="col-md-6">
 					<h2>Get in Touch</h2>
-					<form class="contact-form" onsubmit="return sendMail()">
+					<form class="contact-form" method="post" action="#">
 						<div class="row">
 							<div class="col-md-6">
 								<div class="form-group">
-									<input type="text" class="form-control" name="Name" id="name" placeholder="Name" required>
+									<input type="text" class="form-control" name="name" id="name" placeholder="Name" required>
 								</div>
 							</div>
 							<div class="col-md-6">
@@ -181,7 +181,7 @@
 						<div class="row">
 							<div class="col-md-12">
 								<div class="form-group">
-									<textarea class="form-control textarea" rows="3" name="Message" id="message" placeholder="Message" required></textarea>
+									<textarea class="form-control textarea" rows="3" name="message" id="message" placeholder="Message" required></textarea>
 								</div>
 							</div>
 						</div>
@@ -191,6 +191,7 @@
 							</div>
 						</div>
 					</form>
+					<h3><?php include "contact.php"?></h3>
 				</div>
 			</div>
 		</div>
@@ -390,7 +391,7 @@
 					<p class="m-0 text-left text-white">Copyright &copy; Inexplus 2018</p>
 				</div>
 				<div class="col-md-6">
-					<p class="m-0 text-right text-white">Developed by <a style="color: #e5440e" href="www.omnia.tech">Omni@</a></p>
+					<p class="m-0 text-right text-white">Developed by <a style="color: #e5440e" href="https://www.facebook.com/connectwithomnia/">Omni@</a></p>
 				</div>
 			</div>
 		</div>
