@@ -158,7 +158,7 @@
 				</div>
 				<div class="col-md-6">
 					<h2>Get in Touch</h2>
-					<form class="contact-form" method="post" action="#">
+					<form name="contact-form" class="contact-form" method="post" action="contact.php">
 						<div class="row">
 							<div class="col-md-6">
 								<div class="form-group">
@@ -191,7 +191,6 @@
 							</div>
 						</div>
 					</form>
-					<h3><?php include "contact.php"?></h3>
 				</div>
 			</div>
 		</div>

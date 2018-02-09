@@ -27,7 +27,7 @@ if (isset($_POST["submit"])) {
 
             // Send Mail By PHP Mail Function
             mail("info@inexplus.in", "Mail from " . $name , $message, $headers);
-            echo "Your mail has been sent successfuly! Thank you for your feedback";
+            echo "Thank You, we will be in touch with you very soon.";
         }
     }
 }
